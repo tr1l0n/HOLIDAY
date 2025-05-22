@@ -1,0 +1,83 @@
+.head{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    &-login{
+        font-family: "Montserrat";
+            font-weight: 700;
+            font-size: 13.99px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: center;
+            vertical-align: bottom;
+            color: white;
+            padding-top: 15px;
+    }
+    &-signup{
+        font-family: "Montserrat";
+            font-weight: 700;
+            font-size: 13.99px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: center;
+            vertical-align: bottom;
+            width: 92px;
+            height: 39px;
+            border: 2px solid rgba(255, 255, 255, 1);
+            background-color: transparent;
+            color: white;
+            border-radius: 40px;
+    }
+}
+.bg-head-hero{
+    height: 542px;
+    background-image: url(../img/bgheadhero.png);
+    background-size: cover;
+    width: 100%;
+}
+.page-header{
+    height: 55px;
+    padding-top: 15px;
+}
+.logo{
+    display: none;
+}
+@media (min-width:768px){
+    .bg-head-hero {
+            height: 700px;
+            background-image: url(../img/tablet-header.png);
+            background-size: cover;
+            width: 100%;   
+        }
+    .logo{
+        display: block;
+        font-family: "Montserrat";
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 1px;
+            text-align: center;
+            vertical-align: bottom;
+            text-transform: uppercase;
+            color: white;
+    }
+    .header-tablet{
+        display: flex ;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+    }
+    .page-header{
+        height: 39px;
+    }
+}
+@media (min-width:1442px){
+        .bg-head-hero {
+            height: 700px;
+            background-image: url(../img/desk-header.png);
+            background-size: cover;
+            width: 100%;
+        }
+
+}

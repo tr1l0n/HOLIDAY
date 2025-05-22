@@ -1,0 +1,122 @@
+.partners{
+    height: 1153px;
+    &-title{
+        font-family: "Montserrat";
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: center;
+            vertical-align: bottom;
+    }
+    &-list{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 953px;
+        gap: 30px;
+        &-li{
+            width: 194px;
+            height: 201px;
+        }
+    }
+}
+.name-partner{
+    font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 14.01px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        padding-left: 5px;
+        vertical-align: bottom;
+        padding-top: 10px;
+        text-align: center;
+}
+.partner-info{
+    font-family: "Roboto";
+        font-weight: 300;
+        font-size: 14.01px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        vertical-align: bottom;
+        color: rgba(102, 102, 102, 1);
+        text-align: center;
+}
+.btn-other-partners{
+    width: 283px;
+    height: 43px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 78, 80, 1);
+    border-radius: 40px;
+    font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+        vertical-align: bottom;
+        color: rgba(255, 78, 80, 1);
+        margin-left: 20px;
+}
+.div-btn-partners{
+    display: flex;
+    justify-content: center;
+}
+@media (min-width:768px){
+    .partners{
+        height: 737px;
+        &-list{
+            width: 470px;
+            height: 526px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 60px;
+            &-li{
+                width: 194px;
+                height: 201px;
+            }
+        }
+    }
+    .div-partners-list{
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .btn-other-partners{
+        width: 195px;
+        height: 42px;
+    }
+}
+@media (min-width:1442px){
+    .partners{
+        height: 510px;
+        &-list{
+            flex-direction: row;
+            width: 914px;
+            height: 268px;
+            gap: 30px;
+            justify-content: center;
+            &-li{
+                height: 202px;
+                width: 194px;
+                &:nth-child(3){
+                    order: 3;
+                }
+                &:nth-child(2){
+                    order: 2;
+                }
+            }
+        }
+
+    }
+    .div-partners-list{
+        padding-top: 10px;
+    }
+    .div-btn-partners{
+        padding-top: 30px;
+    }
+    .partner-info{
+        width: 230px;
+    }
+}

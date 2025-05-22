@@ -1,0 +1,130 @@
+.hero{
+    height: 487px;
+    padding-top: 100px;
+    &-name{
+        font-family: "Montserrat";
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 100%;
+            letter-spacing: 1px;
+            text-align: center;
+            vertical-align: bottom;
+            text-transform: uppercase;
+            color: white;
+    }
+    &-title{
+        font-family: "Montserrat";
+            font-weight: 700;
+            font-size: 30.04px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: center;
+            vertical-align: bottom;
+            text-transform: uppercase;
+            color: white;
+            padding-top: 10px;
+    }
+    &-text{
+        font-family: "Roboto";
+            font-weight: 300;
+            font-size: 18.02px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: center;
+            vertical-align: bottom;
+            color: white;
+        width: 247px;
+
+    }
+    &-btn-search{
+        width: 282px;
+        height: 43px;
+        background-color: rgba(255, 78, 80, 1);
+        border: 1px solid transparent;
+        border-radius: 40px;
+        color: white;
+        font-family: "Montserrat";
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: center;
+            vertical-align: bottom;
+            margin-left: 10px;
+    }
+}
+.div-btn-search{
+    display: flex;
+    justify-content: center;
+}
+.div-hero-title{
+    display: flex;
+    justify-content: center;
+}
+.div-hero-text{
+    display: flex;
+    justify-content: center;
+}
+@media (min-width:768px){
+    .hero{
+        height: 650px;
+        &-title{
+            font-family: "Montserrat";
+                font-weight: 700;
+                font-size: 52.05px;
+                line-height: 100%;
+                letter-spacing: 0px;
+                text-align: center;
+                vertical-align: bottom;
+                text-transform: uppercase;
+                padding-top: 70px;
+                width: 508px;
+        }
+        &-text{
+            font-family: "Roboto";
+                font-weight: 300;
+                font-size: 24.02px;
+                line-height: 100%;
+                letter-spacing: 0px;
+                text-align: center;
+                vertical-align: bottom;
+                opacity: 0.8;
+                width: 100%;
+        }
+        &-btn-search{
+            width: 228px;
+            height: 42px;
+        }
+    }
+    .hero-name {
+        position: absolute;
+        top: 35px;
+    }
+    .head {
+        justify-content: flex-end;
+        padding-top: 15px;
+    }
+}
+@media (min-width:1442px){
+    .hero{
+        &-title{
+            font-family: "Montserrat";
+                font-weight: 700;
+                font-size: 52px;
+                line-height: 100%;
+                letter-spacing: 0px;
+                text-align: center;
+                vertical-align: bottom;
+                text-transform: uppercase;
+                width: 508px;
+        }
+    }
+    .head {
+        justify-content: flex-end;
+        padding-top: 15px;
+    }
+    .hero-name{
+        position: absolute;
+        top: 35px;
+    }
+}
